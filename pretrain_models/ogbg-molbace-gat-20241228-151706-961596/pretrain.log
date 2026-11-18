@@ -1,0 +1,19 @@
+2024-12-28 15:17:06,961 This is the log_dir: pretrain_models/ogbg-molbace-gat-20241228-151706-961596
+2024-12-28 15:17:06,961 This is the param space: Namespace(device='cuda:0', seed=42, num_workers=0, no_print=False, dataset='ogbg-molbace', model='gat', readout='sum', norm_layer='batch_norm', drop_ratio=0.5, num_layer=3, emb_dim=128, batch_size=64, patience=50, trails=1, lr=0.005, wdecay=1e-05, epochs=300, num_tasks=1, initw_name='xavier', use_scheduler=0, task_type='classification', save_log='pretrain_models', data_dir='data/', log_dir='pretrain_models/ogbg-molbace-gat-20241228-151706-961596')
+2024-12-28 15:17:08,426 ***** Running training *****
+2024-12-28 15:17:08,426   Task = ogbg-molbace | Num Epochs = 300
+2024-12-28 15:17:08,816   Train Epoch = 0 | LR = 0.005 | Loss = 0.6686
+2024-12-28 15:17:11,717   Train Epoch = 20 | LR = 0.005 | Loss = 0.6062
+2024-12-28 15:17:14,627   Train Epoch = 40 | LR = 0.005 | Loss = 0.5963
+2024-12-28 15:17:17,486   Train Epoch = 60 | LR = 0.005 | Loss = 0.6043
+2024-12-28 15:17:20,506   Train Epoch = 80 | LR = 0.005 | Loss = 0.5885
+2024-12-28 15:17:23,411   Train Epoch = 100 | LR = 0.005 | Loss = 0.573
+2024-12-28 15:17:26,265   Train Epoch = 120 | LR = 0.005 | Loss = 0.578
+2024-12-28 15:17:29,112   Train Epoch = 140 | LR = 0.005 | Loss = 0.5714
+2024-12-28 15:17:29,893 Early stopping at epoch 145
+2024-12-28 15:17:29,893 Finished training!
+2024-12-28 15:17:29,893 Best Epoch = 94 | Best Train = {'auc': 0.6462257420091324} | Best Valid = {'auc': 0.7159340659340659} | Best Test = {'auc': 0.7363936706659711}
+2024-12-28 15:17:29,895 train_auc: 0.6462+-0.0000 [0.6462257420091324]
+2024-12-28 15:17:29,896 valid_auc: 0.7159+-0.0000 [0.7159340659340659]
+2024-12-28 15:17:29,896 test_auc: 0.7364+-0.0000 [0.7363936706659711]
+2024-12-28 15:17:29,896 Finish! Log_dir final is: pretrain_models/ogbg-molbace-gat-20241228-151706-961596

@@ -1,0 +1,34 @@
+2024-12-10 20:38:36,285 This is the log_dir: pretrain_models/ogbg-molfreesolv-gcn-20241210-203836-285073
+2024-12-10 20:38:36,285 This is the param space: Namespace(device='cuda:0', seed=42, num_workers=0, no_print=False, dataset='ogbg-molfreesolv', model='gcn', readout='sum', norm_layer='batch_norm', drop_ratio=0.5, num_layer=3, emb_dim=128, batch_size=48, patience=50, trails=1, lr=0.005, wdecay=1e-05, epochs=300, num_tasks=1, initw_name='xavier', use_scheduler=0, task_type='regression', save_log='pretrain_models', data_dir='data/', log_dir='pretrain_models/ogbg-molfreesolv-gcn-20241210-203836-285073')
+2024-12-10 20:38:36,778 ***** Running training *****
+2024-12-10 20:38:36,778   Task = ogbg-molfreesolv | Num Epochs = 300
+2024-12-10 20:38:37,096   Train Epoch = 0 | LR = 0.005 | Loss = 13.0337
+2024-12-10 20:38:38,273   Train Epoch = 20 | LR = 0.005 | Loss = 3.3718
+2024-12-10 20:38:39,459   Train Epoch = 40 | LR = 0.005 | Loss = 2.0851
+2024-12-10 20:38:40,582   Train Epoch = 60 | LR = 0.005 | Loss = 2.1217
+2024-12-10 20:38:41,696   Train Epoch = 80 | LR = 0.005 | Loss = 1.9606
+2024-12-10 20:38:42,796   Train Epoch = 100 | LR = 0.005 | Loss = 1.9035
+2024-12-10 20:38:43,899   Train Epoch = 120 | LR = 0.005 | Loss = 1.5665
+2024-12-10 20:38:44,990   Train Epoch = 140 | LR = 0.005 | Loss = 1.4192
+2024-12-10 20:38:46,083   Train Epoch = 160 | LR = 0.005 | Loss = 1.602
+2024-12-10 20:38:47,162   Train Epoch = 180 | LR = 0.005 | Loss = 1.5352
+2024-12-10 20:38:48,248   Train Epoch = 200 | LR = 0.005 | Loss = 1.3572
+2024-12-10 20:38:49,333   Train Epoch = 220 | LR = 0.005 | Loss = 1.374
+2024-12-10 20:38:50,407   Train Epoch = 240 | LR = 0.005 | Loss = 1.0747
+2024-12-10 20:38:51,451   Train Epoch = 260 | LR = 0.005 | Loss = 1.2288
+2024-12-10 20:38:52,493   Train Epoch = 280 | LR = 0.005 | Loss = 1.1728
+2024-12-10 20:38:53,520 Finished training!
+2024-12-10 20:38:53,520 Best Epoch = 296 | Best Train = {'rmse': 0.7037212, 'mse': 0.49522352, 'mae': 0.44771612, 'r2': 0.9538992478939052} | Best Valid = {'rmse': 0.56537306, 'mse': 0.31964672, 'mae': 0.3925537, 'r2': 0.9648458961401059} | Best Test = {'rmse': 2.5960507, 'mse': 6.7394795, 'mae': 1.8112451, 'r2': 0.49009924937095595}
+2024-12-10 20:38:53,521 train_rmse: 0.7037+-0.0000 [0.7037212]
+2024-12-10 20:38:53,522 valid_rmse: 0.5654+-0.0000 [0.56537306]
+2024-12-10 20:38:53,522 test_rmse: 2.5961+-0.0000 [2.5960507]
+2024-12-10 20:38:53,522 train_mse: 0.4952+-0.0000 [0.49522352]
+2024-12-10 20:38:53,522 valid_mse: 0.3196+-0.0000 [0.31964672]
+2024-12-10 20:38:53,522 test_mse: 6.7395+-0.0000 [6.7394795]
+2024-12-10 20:38:53,522 train_mae: 0.4477+-0.0000 [0.44771612]
+2024-12-10 20:38:53,522 valid_mae: 0.3926+-0.0000 [0.3925537]
+2024-12-10 20:38:53,522 test_mae: 1.8112+-0.0000 [1.8112451]
+2024-12-10 20:38:53,522 train_r2: 0.9539+-0.0000 [0.9538992478939052]
+2024-12-10 20:38:53,522 valid_r2: 0.9648+-0.0000 [0.9648458961401059]
+2024-12-10 20:38:53,522 test_r2: 0.4901+-0.0000 [0.49009924937095595]
+2024-12-10 20:38:53,522 Finish! Log_dir final is: pretrain_models/ogbg-molfreesolv-gcn-20241210-203836-285073

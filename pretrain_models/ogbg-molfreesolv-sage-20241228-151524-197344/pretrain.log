@@ -1,0 +1,30 @@
+2024-12-28 15:15:24,197 This is the log_dir: pretrain_models/ogbg-molfreesolv-sage-20241228-151524-197344
+2024-12-28 15:15:24,197 This is the param space: Namespace(device='cuda:0', seed=42, num_workers=0, no_print=False, dataset='ogbg-molfreesolv', model='sage', readout='sum', norm_layer='batch_norm', drop_ratio=0.5, num_layer=3, emb_dim=128, batch_size=48, patience=50, trails=1, lr=0.005, wdecay=1e-05, epochs=300, num_tasks=1, initw_name='xavier', use_scheduler=0, task_type='regression', save_log='pretrain_models', data_dir='data/', log_dir='pretrain_models/ogbg-molfreesolv-sage-20241228-151524-197344')
+2024-12-28 15:15:24,719 ***** Running training *****
+2024-12-28 15:15:24,719   Task = ogbg-molfreesolv | Num Epochs = 300
+2024-12-28 15:15:25,040   Train Epoch = 0 | LR = 0.005 | Loss = 13.1382
+2024-12-28 15:15:26,128   Train Epoch = 20 | LR = 0.005 | Loss = 3.4175
+2024-12-28 15:15:27,167   Train Epoch = 40 | LR = 0.005 | Loss = 2.8526
+2024-12-28 15:15:28,163   Train Epoch = 60 | LR = 0.005 | Loss = 2.4872
+2024-12-28 15:15:29,168   Train Epoch = 80 | LR = 0.005 | Loss = 2.5998
+2024-12-28 15:15:30,192   Train Epoch = 100 | LR = 0.005 | Loss = 2.4518
+2024-12-28 15:15:31,192   Train Epoch = 120 | LR = 0.005 | Loss = 2.5385
+2024-12-28 15:15:32,182   Train Epoch = 140 | LR = 0.005 | Loss = 2.1786
+2024-12-28 15:15:33,183   Train Epoch = 160 | LR = 0.005 | Loss = 1.8867
+2024-12-28 15:15:34,168   Train Epoch = 180 | LR = 0.005 | Loss = 2.0248
+2024-12-28 15:15:34,781 Early stopping at epoch 192
+2024-12-28 15:15:34,781 Finished training!
+2024-12-28 15:15:34,781 Best Epoch = 141 | Best Train = {'rmse': 1.1465632, 'mse': 1.3146071, 'mae': 0.8827967, 'r2': 0.8776221729506986} | Best Valid = {'rmse': 0.93882215, 'mse': 0.881387, 'mae': 0.77480847, 'r2': 0.9030668493012559} | Best Test = {'rmse': 2.7842507, 'mse': 7.752053, 'mae': 1.8595933, 'r2': 0.4134892101489356}
+2024-12-28 15:15:34,782 train_rmse: 1.1466+-0.0000 [1.1465632]
+2024-12-28 15:15:34,783 valid_rmse: 0.9388+-0.0000 [0.93882215]
+2024-12-28 15:15:34,783 test_rmse: 2.7843+-0.0000 [2.7842507]
+2024-12-28 15:15:34,783 train_mse: 1.3146+-0.0000 [1.3146071]
+2024-12-28 15:15:34,783 valid_mse: 0.8814+-0.0000 [0.881387]
+2024-12-28 15:15:34,783 test_mse: 7.7521+-0.0000 [7.752053]
+2024-12-28 15:15:34,783 train_mae: 0.8828+-0.0000 [0.8827967]
+2024-12-28 15:15:34,783 valid_mae: 0.7748+-0.0000 [0.77480847]
+2024-12-28 15:15:34,783 test_mae: 1.8596+-0.0000 [1.8595933]
+2024-12-28 15:15:34,783 train_r2: 0.8776+-0.0000 [0.8776221729506986]
+2024-12-28 15:15:34,783 valid_r2: 0.9031+-0.0000 [0.9030668493012559]
+2024-12-28 15:15:34,783 test_r2: 0.4135+-0.0000 [0.4134892101489356]
+2024-12-28 15:15:34,783 Finish! Log_dir final is: pretrain_models/ogbg-molfreesolv-sage-20241228-151524-197344

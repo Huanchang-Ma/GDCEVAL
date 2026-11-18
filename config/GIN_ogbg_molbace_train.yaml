@@ -1,0 +1,25 @@
+data_dir: 'data'
+
+dataset: ogbg-molbace
+trails: 1
+seed: 42
+
+# model
+model: gin
+num_layer: 3
+readout: max
+norm_layer: size_norm
+num_tasks: 1
+save_pretrain_dir: pretrain_models
+
+# learning
+lr: 0.00005
+wdecay: 0.0001
+batch_size: 64
+initw_name: xavier
+device: cuda:0
+use_scheduler: 1
+task_type: classification
+patience: 50
+
+no_print: False

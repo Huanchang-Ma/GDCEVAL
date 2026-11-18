@@ -1,0 +1,21 @@
+2024-08-04 15:49:13,016 This is the log_dir: pretrain_models/ogbg-molbace-gin-20240804-154912-964894
+2024-08-04 15:49:13,017 This is the param space: Namespace(batch_size=64, data_dir='data/', dataset='ogbg-molbace', device='cuda:0', drop_ratio=0.5, emb_dim=128, epochs=300, initw_name='xavier', log_dir='pretrain_models/ogbg-molbace-gin-20240804-154912-964894', lr=5e-05, model='gin', no_print=False, norm_layer='batch_norm', num_layer=3, num_tasks=1, num_workers=0, patience=50, readout='sum', save_log='pretrain_models', seed=42, task_type='classification', trails=1, use_scheduler=0, wdecay=1e-05)
+2024-08-04 15:49:15,199 ***** Running training *****
+2024-08-04 15:49:15,199   Task = ogbg-molbace | Num Epochs = 300
+2024-08-04 15:49:15,436   Train Epoch = 0 | LR = 5e-05 | Loss = 0.6767
+2024-08-04 15:49:19,387   Train Epoch = 20 | LR = 5e-05 | Loss = 0.5137
+2024-08-04 15:49:23,236   Train Epoch = 40 | LR = 5e-05 | Loss = 0.4317
+2024-08-04 15:49:27,134   Train Epoch = 60 | LR = 5e-05 | Loss = 0.4095
+2024-08-04 15:49:31,008   Train Epoch = 80 | LR = 5e-05 | Loss = 0.3844
+2024-08-04 15:49:34,856   Train Epoch = 100 | LR = 5e-05 | Loss = 0.3669
+2024-08-04 15:49:38,739   Train Epoch = 120 | LR = 5e-05 | Loss = 0.3493
+2024-08-04 15:49:42,594   Train Epoch = 140 | LR = 5e-05 | Loss = 0.3296
+2024-08-04 15:49:46,496   Train Epoch = 160 | LR = 5e-05 | Loss = 0.3334
+2024-08-04 15:49:50,368   Train Epoch = 180 | LR = 5e-05 | Loss = 0.3161
+2024-08-04 15:49:52,564 Early stopping at epoch 191
+2024-08-04 15:49:52,564 Finished training!
+2024-08-04 15:49:52,564 Best Epoch = 140 | Best Train = {'auc': 0.9420890410958903} | Best Valid = {'auc': 0.7663003663003664} | Best Test = {'auc': 0.8109893931490175}
+2024-08-04 15:49:52,568 train_auc: 0.9421+-0.0000 [0.9420890410958903]
+2024-08-04 15:49:52,569 valid_auc: 0.7663+-0.0000 [0.7663003663003664]
+2024-08-04 15:49:52,569 test_auc: 0.8110+-0.0000 [0.8109893931490175]
+2024-08-04 15:49:52,569 Finish! Log_dir final is: pretrain_models/ogbg-molbace-gin-20240804-154912-964894

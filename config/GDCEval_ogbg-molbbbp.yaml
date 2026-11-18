@@ -1,0 +1,42 @@
+data_dir: '../data'
+
+ckpt: Aug21-13_05_16
+
+
+predictor: Reverse
+corrector: Langevin
+#snr: 0.2
+snr: 0.9
+#scale_eps: 0.7
+scale_eps: 0.6
+n_steps: 1
+
+dataset: ogbg-molbbbp
+trails: 1
+seed: 42
+# model
+model: gin
+num_layer: 3
+readout: max
+norm_layer: size_norm
+num_tasks: 1
+save_pretrain_dir: pretrain_models
+# learning
+lr: 0.0001
+wdecay: 0.0001
+batch_size: 1
+patience: 300
+initw-name: xavier
+# diffusion-based augmentation
+n_negative: 5
+out_steps: 5
+topk: 100
+aug_batch: 2000
+start: 20
+iteration: 20
+strategy: replace_accumulate
+snr: 1
+scale_eps: 0.
+perturb_ratio: 0.02
+
+no_print: False

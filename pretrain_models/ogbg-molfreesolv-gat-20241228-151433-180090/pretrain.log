@@ -1,0 +1,33 @@
+2024-12-28 15:14:33,180 This is the log_dir: pretrain_models/ogbg-molfreesolv-gat-20241228-151433-180090
+2024-12-28 15:14:33,180 This is the param space: Namespace(device='cuda:0', seed=42, num_workers=0, no_print=False, dataset='ogbg-molfreesolv', model='gat', readout='sum', norm_layer='batch_norm', drop_ratio=0.5, num_layer=3, emb_dim=128, batch_size=48, patience=50, trails=1, lr=0.005, wdecay=1e-05, epochs=300, num_tasks=1, initw_name='xavier', use_scheduler=0, task_type='regression', save_log='pretrain_models', data_dir='data/', log_dir='pretrain_models/ogbg-molfreesolv-gat-20241228-151433-180090')
+2024-12-28 15:14:33,674 ***** Running training *****
+2024-12-28 15:14:33,674   Task = ogbg-molfreesolv | Num Epochs = 300
+2024-12-28 15:14:34,001   Train Epoch = 0 | LR = 0.005 | Loss = 12.7022
+2024-12-28 15:14:35,615   Train Epoch = 20 | LR = 0.005 | Loss = 6.1576
+2024-12-28 15:14:37,178   Train Epoch = 40 | LR = 0.005 | Loss = 5.3364
+2024-12-28 15:14:38,731   Train Epoch = 60 | LR = 0.005 | Loss = 5.6017
+2024-12-28 15:14:40,254   Train Epoch = 80 | LR = 0.005 | Loss = 4.9355
+2024-12-28 15:14:41,736   Train Epoch = 100 | LR = 0.005 | Loss = 4.8975
+2024-12-28 15:14:43,246   Train Epoch = 120 | LR = 0.005 | Loss = 4.6024
+2024-12-28 15:14:44,714   Train Epoch = 140 | LR = 0.005 | Loss = 4.8219
+2024-12-28 15:14:46,165   Train Epoch = 160 | LR = 0.005 | Loss = 4.706
+2024-12-28 15:14:47,652   Train Epoch = 180 | LR = 0.005 | Loss = 4.0848
+2024-12-28 15:14:49,111   Train Epoch = 200 | LR = 0.005 | Loss = 4.446
+2024-12-28 15:14:50,607   Train Epoch = 220 | LR = 0.005 | Loss = 4.6639
+2024-12-28 15:14:52,089   Train Epoch = 240 | LR = 0.005 | Loss = 4.3341
+2024-12-28 15:14:53,231 Early stopping at epoch 255
+2024-12-28 15:14:53,231 Finished training!
+2024-12-28 15:14:53,231 Best Epoch = 204 | Best Train = {'rmse': 1.9869462, 'mse': 3.9479551, 'mae': 1.3813396, 'r2': 0.632481715262482} | Best Valid = {'rmse': 1.611374, 'mse': 2.5965261, 'mae': 1.3001764, 'r2': 0.714439320226132} | Best Test = {'rmse': 2.661229, 'mse': 7.082139, 'mae': 1.8855883, 'r2': 0.4641740096156539}
+2024-12-28 15:14:53,232 train_rmse: 1.9869+-0.0000 [1.9869462]
+2024-12-28 15:14:53,232 valid_rmse: 1.6114+-0.0000 [1.611374]
+2024-12-28 15:14:53,232 test_rmse: 2.6612+-0.0000 [2.661229]
+2024-12-28 15:14:53,232 train_mse: 3.9480+-0.0000 [3.9479551]
+2024-12-28 15:14:53,232 valid_mse: 2.5965+-0.0000 [2.5965261]
+2024-12-28 15:14:53,232 test_mse: 7.0821+-0.0000 [7.082139]
+2024-12-28 15:14:53,232 train_mae: 1.3813+-0.0000 [1.3813396]
+2024-12-28 15:14:53,232 valid_mae: 1.3002+-0.0000 [1.3001764]
+2024-12-28 15:14:53,232 test_mae: 1.8856+-0.0000 [1.8855883]
+2024-12-28 15:14:53,232 train_r2: 0.6325+-0.0000 [0.632481715262482]
+2024-12-28 15:14:53,232 valid_r2: 0.7144+-0.0000 [0.714439320226132]
+2024-12-28 15:14:53,232 test_r2: 0.4642+-0.0000 [0.4641740096156539]
+2024-12-28 15:14:53,232 Finish! Log_dir final is: pretrain_models/ogbg-molfreesolv-gat-20241228-151433-180090

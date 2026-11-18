@@ -1,0 +1,21 @@
+2024-12-28 15:21:40,880 This is the log_dir: pretrain_models/ogbg-molclintox-sage-20241228-152140-880041
+2024-12-28 15:21:40,880 This is the param space: Namespace(device='cuda:0', seed=42, num_workers=0, no_print=False, dataset='ogbg-molclintox', model='sage', readout='sum', norm_layer='batch_norm', drop_ratio=0.5, num_layer=3, emb_dim=128, batch_size=64, patience=50, trails=1, lr=0.005, wdecay=1e-05, epochs=300, num_tasks=2, initw_name='xavier', use_scheduler=0, task_type='classification', save_log='pretrain_models', data_dir='data/', log_dir='pretrain_models/ogbg-molclintox-sage-20241228-152140-880041')
+2024-12-28 15:21:44,851 ***** Running training *****
+2024-12-28 15:21:44,851   Task = ogbg-molclintox | Num Epochs = 300
+2024-12-28 15:21:45,201   Train Epoch = 0 | LR = 0.005 | Loss = 0.3566
+2024-12-28 15:21:47,440   Train Epoch = 20 | LR = 0.005 | Loss = 0.2407
+2024-12-28 15:21:49,653   Train Epoch = 40 | LR = 0.005 | Loss = 0.2266
+2024-12-28 15:21:51,789   Train Epoch = 60 | LR = 0.005 | Loss = 0.2273
+2024-12-28 15:21:54,002   Train Epoch = 80 | LR = 0.005 | Loss = 0.2137
+2024-12-28 15:21:56,197   Train Epoch = 100 | LR = 0.005 | Loss = 0.2147
+2024-12-28 15:21:58,428   Train Epoch = 120 | LR = 0.005 | Loss = 0.2063
+2024-12-28 15:22:00,628   Train Epoch = 140 | LR = 0.005 | Loss = 0.205
+2024-12-28 15:22:02,851   Train Epoch = 160 | LR = 0.005 | Loss = 0.2023
+2024-12-28 15:22:05,033   Train Epoch = 180 | LR = 0.005 | Loss = 0.2041
+2024-12-28 15:22:06,824 Early stopping at epoch 196
+2024-12-28 15:22:06,824 Finished training!
+2024-12-28 15:22:06,824 Best Epoch = 145 | Best Train = {'auc': 0.849041442739529} | Best Valid = {'auc': 0.9341137718003389} | Best Test = {'auc': 0.5245125638619539}
+2024-12-28 15:22:06,826 train_auc: 0.8490+-0.0000 [0.849041442739529]
+2024-12-28 15:22:06,827 valid_auc: 0.9341+-0.0000 [0.9341137718003389]
+2024-12-28 15:22:06,827 test_auc: 0.5245+-0.0000 [0.5245125638619539]
+2024-12-28 15:22:06,827 Finish! Log_dir final is: pretrain_models/ogbg-molclintox-sage-20241228-152140-880041

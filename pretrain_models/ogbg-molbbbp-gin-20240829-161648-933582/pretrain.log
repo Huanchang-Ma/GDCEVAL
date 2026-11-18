@@ -1,0 +1,26 @@
+2024-08-29 16:16:48,933 This is the log_dir: pretrain_models/ogbg-molbbbp-gin-20240829-161648-933582
+2024-08-29 16:16:48,934 This is the param space: Namespace(batch_size=64, data_dir='data/', dataset='ogbg-molbbbp', device='cuda:0', drop_ratio=0.5, emb_dim=128, epochs=300, initw_name='xavier', log_dir='pretrain_models/ogbg-molbbbp-gin-20240829-161648-933582', lr=0.005, model='gin', no_print=False, norm_layer='batch_norm', num_layer=3, num_tasks=1, num_workers=0, patience=50, readout='sum', save_log='pretrain_models', seed=42, task_type='classification', trails=1, use_scheduler=0, wdecay=1e-05)
+2024-08-29 16:16:56,171 ***** Running training *****
+2024-08-29 16:16:56,171   Task = ogbg-molbbbp | Num Epochs = 300
+2024-08-29 16:16:56,669   Train Epoch = 0 | LR = 0.005 | Loss = 0.4678
+2024-08-29 16:17:07,284   Train Epoch = 20 | LR = 0.005 | Loss = 0.3045
+2024-08-29 16:17:17,706   Train Epoch = 40 | LR = 0.005 | Loss = 0.2744
+2024-08-29 16:17:28,037   Train Epoch = 60 | LR = 0.005 | Loss = 0.2745
+2024-08-29 16:17:38,552   Train Epoch = 80 | LR = 0.005 | Loss = 0.2574
+2024-08-29 16:17:48,985   Train Epoch = 100 | LR = 0.005 | Loss = 0.2367
+2024-08-29 16:17:59,334   Train Epoch = 120 | LR = 0.005 | Loss = 0.2339
+2024-08-29 16:18:09,663   Train Epoch = 140 | LR = 0.005 | Loss = 0.2116
+2024-08-29 16:18:20,024   Train Epoch = 160 | LR = 0.005 | Loss = 0.2176
+2024-08-29 16:18:30,348   Train Epoch = 180 | LR = 0.005 | Loss = 0.1905
+2024-08-29 16:18:40,711   Train Epoch = 200 | LR = 0.005 | Loss = 0.1998
+2024-08-29 16:18:51,053   Train Epoch = 220 | LR = 0.005 | Loss = 0.1647
+2024-08-29 16:19:01,408   Train Epoch = 240 | LR = 0.005 | Loss = 0.171
+2024-08-29 16:19:11,740   Train Epoch = 260 | LR = 0.005 | Loss = 0.1657
+2024-08-29 16:19:22,081   Train Epoch = 280 | LR = 0.005 | Loss = 0.1543
+2024-08-29 16:19:23,807 Early stopping at epoch 283
+2024-08-29 16:19:23,807 Finished training!
+2024-08-29 16:19:23,807 Best Epoch = 232 | Best Train = {'auc': 0.9804086116237962} | Best Valid = {'auc': 0.9907850434166223} | Best Test = {'auc': 0.693431712962963}
+2024-08-29 16:19:23,815 train_auc: 0.9804+-0.0000 [0.9804086116237962]
+2024-08-29 16:19:23,818 valid_auc: 0.9908+-0.0000 [0.9907850434166223]
+2024-08-29 16:19:23,818 test_auc: 0.6934+-0.0000 [0.693431712962963]
+2024-08-29 16:19:23,818 Finish! Log_dir final is: pretrain_models/ogbg-molbbbp-gin-20240829-161648-933582

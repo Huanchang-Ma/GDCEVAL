@@ -1,0 +1,25 @@
+2024-09-20 11:45:40,263 This is the log_dir: pretrain_models/ogbg-molclintox-gin-20240920-114540-263439
+2024-09-20 11:45:40,263 This is the param space: Namespace(batch_size=48, data_dir='data/', dataset='ogbg-molclintox', device='cuda:0', drop_ratio=0.5, emb_dim=128, epochs=300, initw_name='xavier', log_dir='pretrain_models/ogbg-molclintox-gin-20240920-114540-263439', lr=0.0006, model='gin', no_print=False, norm_layer='batch_norm', num_layer=3, num_tasks=2, num_workers=0, patience=50, readout='sum', save_log='pretrain_models', seed=42, task_type='classification', trails=1, use_scheduler=0, wdecay=5e-05)
+2024-09-20 11:45:49,549 ***** Running training *****
+2024-09-20 11:45:49,549   Task = ogbg-molclintox | Num Epochs = 300
+2024-09-20 11:45:49,873   Train Epoch = 0 | LR = 0.0006 | Loss = 0.4964
+2024-09-20 11:45:55,773   Train Epoch = 20 | LR = 0.0006 | Loss = 0.2228
+2024-09-20 11:46:01,497   Train Epoch = 40 | LR = 0.0006 | Loss = 0.2182
+2024-09-20 11:46:07,245   Train Epoch = 60 | LR = 0.0006 | Loss = 0.2086
+2024-09-20 11:46:13,030   Train Epoch = 80 | LR = 0.0006 | Loss = 0.1816
+2024-09-20 11:46:18,725   Train Epoch = 100 | LR = 0.0006 | Loss = 0.2006
+2024-09-20 11:46:24,390   Train Epoch = 120 | LR = 0.0006 | Loss = 0.19
+2024-09-20 11:46:30,040   Train Epoch = 140 | LR = 0.0006 | Loss = 0.1941
+2024-09-20 11:46:35,763   Train Epoch = 160 | LR = 0.0006 | Loss = 0.1839
+2024-09-20 11:46:41,472   Train Epoch = 180 | LR = 0.0006 | Loss = 0.1768
+2024-09-20 11:46:47,174   Train Epoch = 200 | LR = 0.0006 | Loss = 0.1658
+2024-09-20 11:46:52,899   Train Epoch = 220 | LR = 0.0006 | Loss = 0.1702
+2024-09-20 11:46:58,683   Train Epoch = 240 | LR = 0.0006 | Loss = 0.1643
+2024-09-20 11:47:04,463   Train Epoch = 260 | LR = 0.0006 | Loss = 0.1611
+2024-09-20 11:47:10,203   Train Epoch = 280 | LR = 0.0006 | Loss = 0.1651
+2024-09-20 11:47:15,754 Finished training!
+2024-09-20 11:47:15,754 Best Epoch = 288 | Best Train = {'auc': 0.9469454546453371} | Best Valid = {'auc': 0.9579354448757433} | Best Test = {'auc': 0.6271339450178988}
+2024-09-20 11:47:15,760 train_auc: 0.9469+-0.0000 [0.9469454546453371]
+2024-09-20 11:47:15,761 valid_auc: 0.9579+-0.0000 [0.9579354448757433]
+2024-09-20 11:47:15,761 test_auc: 0.6271+-0.0000 [0.6271339450178988]
+2024-09-20 11:47:15,761 Finish! Log_dir final is: pretrain_models/ogbg-molclintox-gin-20240920-114540-263439

@@ -1,0 +1,33 @@
+2024-08-18 20:01:01,347 This is the log_dir: pretrain_models/ogbg-molfreesolv-gin-20240818-200101-328916
+2024-08-18 20:01:01,347 This is the param space: Namespace(batch_size=48, data_dir='data/', dataset='ogbg-molfreesolv', device='cuda:0', drop_ratio=0.5, emb_dim=128, epochs=300, initw_name='xavier', log_dir='pretrain_models/ogbg-molfreesolv-gin-20240818-200101-328916', lr=0.0003, model='gin', no_print=False, norm_layer='batch_norm', num_layer=3, num_tasks=1, num_workers=0, patience=50, readout='sum', save_log='pretrain_models', seed=42, task_type='regression', trails=1, use_scheduler=0, wdecay=1e-05)
+2024-08-18 20:01:01,936 ***** Running training *****
+2024-08-18 20:01:01,936   Task = ogbg-molfreesolv | Num Epochs = 300
+2024-08-18 20:01:02,111   Train Epoch = 0 | LR = 0.0003 | Loss = 19.8969
+2024-08-18 20:01:04,242   Train Epoch = 20 | LR = 0.0003 | Loss = 2.77
+2024-08-18 20:01:06,264   Train Epoch = 40 | LR = 0.0003 | Loss = 2.1088
+2024-08-18 20:01:08,273   Train Epoch = 60 | LR = 0.0003 | Loss = 1.8797
+2024-08-18 20:01:10,274   Train Epoch = 80 | LR = 0.0003 | Loss = 1.8549
+2024-08-18 20:01:12,309   Train Epoch = 100 | LR = 0.0003 | Loss = 1.6998
+2024-08-18 20:01:14,312   Train Epoch = 120 | LR = 0.0003 | Loss = 1.856
+2024-08-18 20:01:16,328   Train Epoch = 140 | LR = 0.0003 | Loss = 1.4347
+2024-08-18 20:01:18,345   Train Epoch = 160 | LR = 0.0003 | Loss = 1.391
+2024-08-18 20:01:20,341   Train Epoch = 180 | LR = 0.0003 | Loss = 1.5772
+2024-08-18 20:01:22,355   Train Epoch = 200 | LR = 0.0003 | Loss = 1.2871
+2024-08-18 20:01:24,343   Train Epoch = 220 | LR = 0.0003 | Loss = 1.4159
+2024-08-18 20:01:26,339   Train Epoch = 240 | LR = 0.0003 | Loss = 1.3045
+2024-08-18 20:01:27,378 Early stopping at epoch 250
+2024-08-18 20:01:27,378 Finished training!
+2024-08-18 20:01:27,379 Best Epoch = 199 | Best Train = {'rmse': 0.8538575, 'mse': 0.7290727, 'mae': 0.5546407, 'r2': 0.9321300460257064} | Best Valid = {'rmse': 0.78635585, 'mse': 0.6183556, 'mae': 0.51195306, 'r2': 0.9319945029889836} | Best Test = {'rmse': 1.9307979, 'mse': 3.7279806, 'mae': 1.416337, 'r2': 0.7179455524795493}
+2024-08-18 20:01:27,380 train_rmse: 0.8539+-0.0000 [0.8538575]
+2024-08-18 20:01:27,380 valid_rmse: 0.7864+-0.0000 [0.78635585]
+2024-08-18 20:01:27,380 test_rmse: 1.9308+-0.0000 [1.9307979]
+2024-08-18 20:01:27,380 train_mse: 0.7291+-0.0000 [0.7290727]
+2024-08-18 20:01:27,380 valid_mse: 0.6184+-0.0000 [0.6183556]
+2024-08-18 20:01:27,381 test_mse: 3.7280+-0.0000 [3.7279806]
+2024-08-18 20:01:27,381 train_mae: 0.5546+-0.0000 [0.5546407]
+2024-08-18 20:01:27,381 valid_mae: 0.5120+-0.0000 [0.51195306]
+2024-08-18 20:01:27,381 test_mae: 1.4163+-0.0000 [1.416337]
+2024-08-18 20:01:27,381 train_r2: 0.9321+-0.0000 [0.9321300460257064]
+2024-08-18 20:01:27,381 valid_r2: 0.9320+-0.0000 [0.9319945029889836]
+2024-08-18 20:01:27,381 test_r2: 0.7179+-0.0000 [0.7179455524795493]
+2024-08-18 20:01:27,381 Finish! Log_dir final is: pretrain_models/ogbg-molfreesolv-gin-20240818-200101-328916
